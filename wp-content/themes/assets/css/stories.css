@@ -1,0 +1,250 @@
+:root {
+    --color-text-main: #222; /* Dark grey for readability */
+    --color-text-muted: #555;
+    --color-text-secondary: #777;
+    --color-text-subtle: #999;
+    --color-text-light: #fff;
+
+    --color-primary-red: #c8102e; /* Brand red */
+    --color-primary-red-dark: #9b2525;
+    --color-primary-red-light: #d73b3c;
+
+    --color-bg-main: #fff;
+    --color-bg-muted: #fdf3f3; /* soft red-tint background */
+
+    --color-divider: #f2dcdc;
+}
+
+/* Wrapper */
+.stories-wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title and Subtitle */
+.stories-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--color-text-main);
+}
+
+.stories-subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin-bottom: 28px;
+}
+
+/* Grid Layout */
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 28px;
+}
+
+/* Story Card */
+.stories-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 420px; /* or your desired fixed height */
+    padding: 26px;
+    border: 1px solid var(--color-divider);
+    border-radius: 14px;
+    background: var(--color-bg-main);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.stories-content {
+    flex-grow: 1;
+    padding-bottom: 24px; /* add space for the divider */
+}
+
+.stories-card:hover {
+    box-shadow: 0 8px 22px rgba(200, 16, 46, 0.15);
+    transform: translateY(-5px);
+}
+
+/* Header */
+.stories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.stories-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.stories-avatar {
+    background-color: var(--color-primary-red);
+    color: var(--color-text-light);
+    font-weight: 700;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.stories-userinfo span {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--color-text-main);
+}
+
+.stories-userinfo small {
+    color: var(--color-text-subtle);
+    font-size: 0.9rem;
+}
+
+
+.stories-badge {
+    background: var(--color-primary-red-dark);
+    color: var(--color-text-light);
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 18px;
+}
+
+/* Heading and Text */
+.stories-heading {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 12px 0 8px;
+    line-height: 1.45;
+    color: var(--color-text-main);
+}
+
+.stories-text {
+    font-size: 0.98rem;
+    color: var(--color-text-muted);
+    line-height: 1.65;
+    margin-bottom: 18px;
+}
+
+/* Divider */
+.stories-divider {
+    position: absolute;
+    bottom: 70px; /* height of footer + margin (adjust as needed) */
+    left: 26px; /* same as card padding */
+    right: 26px;
+    height: 1px;
+    background-color: var(--color-divider);
+}
+
+
+/* Footer */
+.stories-footer {
+    margin-top: auto;
+    height: 40px; /* fixed footer height for consistent spacing */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.stories-footer-left {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.stories-footer-left span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Subscribers Gained */
+.subscribers-gained {
+    color: var(--color-primary-red);
+    font-weight: 700;
+    font-size: 0.92rem;
+}
+.like-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: none !important; /* removes the WP default */
+    border: none !important;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: #555 !important; /* your preferred default text color */
+    text-decoration: none !important;
+}
+
+.like-button:hover {
+    color: #000 !important; /* black on hover */
+}
+
+.btn-button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #c62828; /* Dark red */
+    color: #fff;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    user-select: none;
+    outline: none; /* remove default outline */
+}
+
+.btn-button:hover {
+    background-color: #e0e0e0; /* Light grey */
+    color: #000; /* Black text */
+}
+
+.btn-button:active,
+.btn-button:focus {
+    background-color: #c62828 !important; /* keep dark red */
+    color: #fff !important; /* keep white text */
+    outline: none;
+    box-shadow: none;
+}
+
+
+.btn-wrap{
+	display: flex;
+	justify-content: end;
+}
+
+/*Like dislike*/
+.pld-like-wrap.pld-common-wrap{
+	display:flex
+}
+
+div.pld-like-dislike-wrap{
+	margin-bottom:0px
+}
+
+.pld-like-dislike-wrap .pld-common-wrap{
+	margin-right:0px
+}
+
+.stories-card-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none !important;
+    color: inherit;
+}
+
+/* Prevent underline on hover/focus/click */
+.stories-card-link:hover,
+.stories-card-link:focus,
+.stories-card-link:active {
+    text-decoration: none !important;
+    outline: none !important;
+}
+

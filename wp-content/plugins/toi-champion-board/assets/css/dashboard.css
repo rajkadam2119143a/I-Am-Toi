@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* HEADER */
+.tcb-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background: white;
+    border-bottom: 1px solid #eee;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #d32f2f, #1e3fa9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text strong {
+    font-size: 16px;
+    color: #b40000;
+    
+}
+
+.logo-text .sub {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.nav {
+    display: flex;
+    gap: 8px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav a:hover {
+    background: #e0e0e0; /* darker grey on hover */
+}
+
+.nav a.active {
+    background: #d32f2f;
+    color: white;
+}
+
+.nav a.active:hover {
+    background: #b71c1c; /* slightly darker red when active is hovered */
+}
+
+
+/* BANNER */
+.banner {
+    background: linear-gradient(to right, #d32f2f, #1e3fa9);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 14px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin: 0 0 8px 0;
+    font-family: "Tinos", serif;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.banner .stats {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.banner .stats span {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* ===== METRIC CARDS ===== */
+.tcb-cards {
+  display: flex;
+  gap: 20px;
+  padding: 40px 0px;
+}
+
+.tcb-cards .card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Icon on top */
+.card .icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #d32f2f; /* Example color */
+}
+
+/* Growth badge top-right */
+.card .growth {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 12px;
+  color: #2e7d32;
+  background: #e8f5e9;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+/* Big number */
+.card .number {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* Label below number */
+.card .label {
+  font-size: 13px;
+  color: #777;
+}
+
+
+/* ===== MAIN SECTION ===== */
+.tcb-main {
+  display: flex;
+  gap: 30px;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+
+.tcb-main .left,
+.tcb-main .right {
+  flex: 1;
+  min-width: 400px;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+/* ===== TOP 10 EMPLOYEE ===== */
+/* Container */
+.container { max-width: 1366px; margin: 0 auto; }
+
+.champions-list { max-width: 720px; margin: 0; }
+
+/* Section heading */
+.champions-list h3 { font-size: 18px; color: #222; margin-bottom: 12px; }
+
+/* Card base */
+.champion-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  background: #fff;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+/* Top 3 highlight (pink) */
+.champion-card.top-highlight {
+  background: #ffeaea;
+  border: 1px solid #f5c1c1;
+}
+
+/* Left group */
+.champion-card .left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Avatar (image) */
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  color: #b33;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Rank circle (#4, #5) */
+.rank-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #fafafa;
+  border: 1px solid #eee;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Name / dept */
+.meta .name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+}
+.meta .dept {
+  font-size: 13px;
+  color: #8a8a8a;
+  margin-top: 4px;
+}
+
+/* Right side: subs and badge */
+.champion-card .right {
+  text-align: right;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  min-width: 120px;
+}
+
+/* Large subs number */
+.subs {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.subs-number {
+  color: #c62828; /* deep red */
+  font-weight: 800;
+  font-size: 26px;
+}
+.subs-label {
+  color: #777;
+  font-size: 14px;
+}
+
+/* growth text (green) */
+.growth {
+  color: #1fa75a;
+  font-size: 13px;
+  font-weight: 600;
+}
+.growth-text {
+  color: #1fa75a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+/* Badges for top ranks */
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 4px;
+}
+.badge.champion, .badge.Champion { background: #c62828; }
+.badge.runner-up, .badge.Runner-up { background: #333; }
+.badge.top-3, .badge.Top3 { background: #777; }
+
+/* If you use different case or spaces, normalize via CSS classes: */
+.badge.Champion { background: #c62828; }
+.badge.Runner-up { background: #333; }
+.badge.Top3 { background: #777; }
+
+/* compact visual tweaks */
+@media (max-width: 520px){
+  .champion-card { padding: 12px; }
+  .avatar, .rank-circle { width:44px; height:44px; }
+  .subs-number { font-size:20px; }
+}
+
+
+/* ===== PARTICIPATION LEADER CHART ===== */
+.chart-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+}
+
+canvas#chart {
+    max-width: 100%;
+    height: 300px;
+}
+
+/* ===== FOOTER STYLING (OPTIONAL) ===== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* ===== EVENTS / STORIES CARDS ===== */
+/* LAYOUT */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 420px; /* left flexible, right fixed */
+  gap: 24px;
+  align-items: start;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #222;
+}
+
+/* SECTION HEADINGS */
+.section h3 {
+  margin: 0 0 14px 0;
+  font-size: 20px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* SHARED CARD STYLE */
+.story-card,
+.event-card {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* -------------------- SUCCESS STORIES (left) -------------------- */
+.story-card {
+  position: relative;
+  overflow: visible;
+}
+
+/* left side grouping */
+.story-left {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+/* avatar circle */
+.avatar {
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  background: #fdecea; /* very light pink */
+  color: #b33;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1px solid #f5cfcf;
+}
+
+/* author, dept, time */
+.story-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.story-meta .author {
+  font-weight: 600;
+  color: #222;
+}
+
+.story-meta .dept {
+  background: #f3f3f3;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* title & excerpt */
+.story-title {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #111;
+  line-height: 1.2;
+}
+
+.story-excerpt {
+  margin: 0 0 12px 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* actions row */
+.story-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.story-actions .stats {
+  color: #888;
+  font-size: 13px;
+}
+
+.btn-text {
+  background: transparent;
+  border: none;
+  color: #666;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* green subs pill (top-right) */
+.subs-pill {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background: #1fa75a;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  border: 2px solid rgba(255,255,255,0.15);
+}
+
+/* -------------------- EVENTS (right) -------------------- */
+.event-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.event-left {
+  flex: 1;
+}
+
+.event-title {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.event-desc {
+  margin: 0 0 8px 0;
+  color: #666;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* chips/tags */
+.chip {
+  display: inline-block;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-left: 6px;
+  color: #fff;
+  font-weight: 600;
+}
+.chip.workshop { background: #d9eefc; color: #0966bd; }   /* you can invert if you prefer colored bg */
+.chip.upcoming { background: #fff3db; color: #b36a00; border: 1px solid #ffe6b8; }
+
+/* event meta row */
+.event-meta {
+  display: flex;
+  gap: 16px;
+  color: #777;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* action column in events */
+.event-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  min-width: 120px;
+}
+
+.attendees {
+  color: #666;
+  font-size: 13px;
+}
+
+.event-actions .btn-outline {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* details link style */
+.btn-text {
+  color: #666;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* SMALLER / MOBILE ADJUSTMENTS */
+@media (max-width: 980px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .right-col { order: 2; }
+  .left-col { order: 1; }
+  .event-actions { align-items: flex-start; }
+}
+
+
+/* ===== BUTTONS / LINKS ===== */
+.btn {
+  background: #d32f2f;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #c62828;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .tcb-cards,
+  .tcb-main {
+    flex-direction: column;
+  }
+
+  .tcb-cards .card,
+  .tcb-main .left,
+  .tcb-main .right {
+    width: 100%;
+  }
+
+  .tcb-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tcb-header .nav a {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<sno><![CDATA[1]]></sno>
+		<function><![CDATA[Response]]></function>
+		<shortfunc><![CDATA[Response]]></shortfunc>
+		<total><![CDATA[957]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[2]]></sno>
+		<function><![CDATA[Results And Market Development]]></function>
+		<shortfunc><![CDATA[RMD]]></shortfunc>
+		<total><![CDATA[580]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[3]]></sno>
+		<function><![CDATA[Brand Capital]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[59]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[4]]></sno>
+		<function><![CDATA[Times Experiences]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[87]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[5]]></sno>
+		<function><![CDATA[Times Syndication Services]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[1]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[6]]></sno>
+		<function><![CDATA[TOI Brand]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[15]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[7]]></sno>
+		<function><![CDATA[ET Brand]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[7]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[8]]></sno>
+		<function><![CDATA[TIMS Brand]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[6]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[9]]></sno>
+		<function><![CDATA[Brand Horizontal]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[20]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[10]]></sno>
+		<function><![CDATA[Times of India]]></function>
+		<shortfunc><![CDATA[TOI]]></shortfunc>
+		<total><![CDATA[1002]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[11]]></sno>
+		<function><![CDATA[The Economic Times]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[254]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[12]]></sno>
+		<function><![CDATA[Navbharat Times]]></function>
+		<shortfunc><![CDATA[NBT]]></shortfunc>
+		<total><![CDATA[188]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[13]]></sno>
+		<function><![CDATA[Times of India Metro Supplements]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[101]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[14]]></sno>
+		<function><![CDATA[Maharashtra Times]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[156]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[15]]></sno>
+		<function><![CDATA[Sandhya Times]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[3]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[16]]></sno>
+		<function><![CDATA[Mumbai Mirror]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[15]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[17]]></sno>
+		<function><![CDATA[Content Audit]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[3]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[18]]></sno>
+		<function><![CDATA[Production / Engineering]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[757]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[19]]></sno>
+		<function><![CDATA[Hospitality & Support]]></function>
+		<shortfunc><![CDATA[H&S]]></shortfunc>
+		<total><![CDATA[57]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[20]]></sno>
+		<function><![CDATA[Business And Commercial]]></function>
+		<shortfunc><![CDATA[B&C]]></shortfunc>
+		<total><![CDATA[74]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[21]]></sno>
+		<function><![CDATA[Finance]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[134]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[22]]></sno>
+		<function><![CDATA[HR & Personnel]]></function>
+		<shortfunc><![CDATA[HR]]></shortfunc>
+		<total><![CDATA[41]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[23]]></sno>
+		<function><![CDATA[Corporate]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[5]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[24]]></sno>
+		<function><![CDATA[Legal]]></function>
+		<shortfunc><![CDATA[Legal]]></shortfunc>
+		<total><![CDATA[12]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[25]]></sno>
+		<function><![CDATA[Modernisation]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[18]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[26]]></sno>
+		<function><![CDATA[Times Generative IT]]></function>
+		<shortfunc><![CDATA[TGIT]]></shortfunc>
+		<total><![CDATA[68]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[27]]></sno>
+		<function><![CDATA[Product & Technology]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[26]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[28]]></sno>
+		<function><![CDATA[Management Assurance Service]]></function>
+		<shortfunc><![CDATA[MAS]]></shortfunc>
+		<total><![CDATA[19]]></total>
+	</node>
+	<node>
+		<sno><![CDATA[]]></sno>
+		<function><![CDATA[Total]]></function>
+		<shortfunc><![CDATA[]]></shortfunc>
+		<total><![CDATA[4665]]></total>
+	</node>
+</data>
